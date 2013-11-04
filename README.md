@@ -1,4 +1,4 @@
-PZ
+Projek Zespo�owy 2
 ==
 
-Projekt zespołowy, Marta Lewandowska, Tomasz Sott
+Projekt zespołowy - Marta Lewandowska, Tomasz Sott
