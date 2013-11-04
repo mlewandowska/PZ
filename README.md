@@ -3,4 +3,5 @@ Projekt Zespolowy 2
 
 Projekt zespołowy - Marta Lewandowska, Tomasz Sott
 
-<h1> Nazwa robocza projektu: Sticker </h1>
+<h2> Nazwa robocza projektu: Sticker </h2>
+Aplikacja umozliwiajaca tworzenie listy zadan/pomyslow/idei/skojarzen dzialajaca rowniez na urzadzeniach mobilnych.
