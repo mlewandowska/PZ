@@ -1,4 +1,6 @@
-Projek Zespo≥owy 2
+Projekt Zespolowy 2
 ==
 
 Projekt zespo≈Çowy - Marta Lewandowska, Tomasz Sott
+
+<h1> Nazwa robocza projektu: Sticker </h1>
