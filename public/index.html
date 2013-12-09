@@ -2,38 +2,84 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>mindmap</title>
+	<title>MindMap Use your head!</title>
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css" media="screen">
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap-modal.js"></script>
 	<script src="js/bootstrap-popover.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
 	<script src="js/skrypt.js"></script>
 </head>
 <body>
+	<div class="container">
+	    <div class="page-header">
+	    <h1>MindMap <small>Use your head!</small></h1>
+		</div>
+			<div class="hero-unit" id="0">
 
-	<div class="hero-unit" id="0">
+				<div class="row-fluid">
+					<div class="span12">
+						<table class="table">
+							<tr>
+								<td>
+									<h3 id="mainContent"></h3>
+									<div class="form-inline" id="editMainContent" style="display: none">
+										<input type="text" class="input-xxlarge" id="editMainContentVal">
+										<button class="btn" id="editMainContentCancelBtn">
+											<i class="icon-remove"></i>
+										</button>
+										<button class="btn btn-primary" id="editMainContentBtn">
+											<i class="icon-ok icon-white"></i>
+										</button>
+									</div>
+								</td>
+								<td style="text-align: right;">
+									<button class="btn" id="editMainBoxBtn">
+										<i class="icon-pencil"></i>
+									</button>
+									<button class="btn btn-primary" id="addSubBoxBtn">
+										<i class="icon-plus icon-white"></i>
+									</button>
+								</td>
+							</tr>
+						</table>
 
-		<div class="row-fluid">
-			<div class="span12">
-				<table class="table">
-					<tr>
-						<td><h3 class="content">temat g³ówny</h3></td>
-						<td style="text-align: right;">
-
-							<button class="btn btn-success" id="addSubBoxBtn">
-								<i class="icon-plus icon-white"></i>
-							</button>
-
-						</td>
-					</tr>
-				</table>
+					</div>
+				</div>
+			
+				<div class="row-fluid" id="row"></div>
 			</div>
 		</div>
 
+<div id="myAddBoxModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myAddBoxModalLabel">Dodaj kategoriê</h3>
+  </div>
+  <div class="modal-body">
+    <input type="text" class="input-block-level" placeholder="Nowa kategoria" id="myAddBoxModalContent">
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Anuluj</button>
+    <button class="btn btn-primary" id="myAddBoxSaveBtn">Dodaj</button>
+  </div>
+</div>
 
-	</div>
+<div id="myAddSubBoxModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myAddSubBoxModalLabel">Dodaj podkategoriê</h3>
+  </div>
+  <div class="modal-body">
+    <input type="text" class="input-block-level" placeholder="Nowa podkategoria" id="myAddSubBoxModalContent">
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Anuluj</button>
+    <button class="btn btn-primary" id="myAddSubBoxSaveBtn">Dodaj</button>
+  </div>
+</div>
 
 </body>
 </html>
