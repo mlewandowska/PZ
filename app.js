@@ -72,11 +72,5 @@ socket.on('connection', function (client) {
     	boxData.editBox(data);
     	client.emit('setNewBoxContent', data);
     	client.broadcast.emit('setNewBoxContent', data);
-    });
-
-    client.on('setNewInnerBoxContent', function (data) {
-        boxData.editInnerBox(data);
-        client.emit('setNewInnerBoxContent', data);
-        client.broadcast.emit('setNewInnerBoxContent', data);
-    });
+    })
 });
