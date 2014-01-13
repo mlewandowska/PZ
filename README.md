@@ -1,6 +1,6 @@
 Projekt Zespołowy 2
 ==
-![logo](https://github.com/mlewandowska/PZ/blob/public/img/logo.jpg)
+![logo](https://github.com/mlewandowska/PZ/blob/master/public/img/logo.jpg)
 
 
 Projekt zespołowy - Marta Lewandowska, Tomasz Sott
