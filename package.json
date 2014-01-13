@@ -1,12 +1,13 @@
 {
-    "name": "myApp",
+    "name": "MindMap",
     "version": "0.0.1",
-    "description": "Prosty czat z Socket.io i Express",
+    "description": "MindMap Use your head!",
     "scripts": {
         "start": "node app.js"
     },
     "dependencies": {
         "socket.io": "0.9.x",
-        "express": "3.x"
+        "express": "3.x",
+        "mongodb": "1.3.x"
     }
 }
