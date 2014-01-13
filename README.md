@@ -1,5 +1,7 @@
-Projekt Zespolowy 2
+Projekt Zespołowy 2
 ==
+![logo](../public/img/logo.jpg)
+
 
 Projekt zespołowy - Marta Lewandowska, Tomasz Sott
 
