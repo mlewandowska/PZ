@@ -16,3 +16,6 @@ Przykładowe wpisy
 ![MindMap na przeglądarkach mobilnych](screenshots/1.png "MindMap na przeglądarkach mobilnych")
 Edycja wybranego pola
 ![MindMap edycja pola ](screenshots/2.png "MindMap edycja pola")
+
+
+[Instalacja NodeJS i uruchomienie aplikacji na systemie Ubuntu](./ubuntu.md)
