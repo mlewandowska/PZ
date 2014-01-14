@@ -5,12 +5,7 @@
 	<title>MindMap Use your head!</title>
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css" media="screen">
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/bootstrap-modal.js"></script>
-	<script src="js/bootstrap-popover.js"></script>
-	<script src="/socket.io/socket.io.js"></script>
-	<script src="js/skrypt.js"></script>
+
 </head>
 <body>
 	<div class="container">
@@ -25,8 +20,8 @@
 							<tr>
 								<td>
 									<h3 id="mainContent"></h3>
-									<div class="form-inline" id="editMainContent" style="display: none">
-										<input type="text" class="input-xxlarge" id="editMainContentVal">
+									<div class="form-inline" id="editMainContent">
+										<input type="text" class="input-xxlarge" id="editMainContentVal" maxlength="16">
 										<button class="btn" id="editMainContentCancelBtn">
 											<i class="icon-remove"></i>
 										</button>
@@ -55,11 +50,11 @@
 
 <div id="myAddBoxModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myAddBoxModalLabel">Dodaj kategoriê</h3>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Ã—</button>
+    <h3 id="myAddBoxModalLabel">Dodaj kategoriÄ™</h3>
   </div>
   <div class="modal-body">
-    <input type="text" class="input-block-level" placeholder="Nowa kategoria" id="myAddBoxModalContent">
+    <input type="text" class="input-block-level" placeholder="Nowa kategoria" id="myAddBoxModalContent"  maxlength="16">
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Anuluj</button>
@@ -69,17 +64,23 @@
 
 <div id="myAddSubBoxModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myAddSubBoxModalLabel">Dodaj podkategoriê</h3>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Ã—</button>
+    <h3 id="myAddSubBoxModalLabel">Dodaj podkategoriÄ™</h3>
   </div>
   <div class="modal-body">
-    <input type="text" class="input-block-level" placeholder="Nowa podkategoria" id="myAddSubBoxModalContent">
+    <input type="text" class="input-block-level" placeholder="Nowa podkategoria" id="myAddSubBoxModalContent"  maxlength="16">
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Anuluj</button>
     <button class="btn btn-primary" id="myAddSubBoxSaveBtn">Dodaj</button>
   </div>
 </div>
-
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap-modal.js"></script>
+	<script src="js/bootstrap-tooltip.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	
+	<script src="js/skrypt.js"></script>
 </body>
 </html>
