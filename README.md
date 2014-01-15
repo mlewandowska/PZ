@@ -15,9 +15,10 @@ Zrzuty ekranu aplikacji działającej na urządzeniach mobilnych (przeglądarki 
 Przykładowe wpisy <br/>
 <br/>
 ![MindMap na przeglądarkach mobilnych](screenshots/1.png "MindMap na przeglądarkach mobilnych")
+<br/>
 Edycja wybranego pola <br/>
 <br/>
 ![MindMap edycja pola ](screenshots/2.png "MindMap edycja pola")
-
+</br>
 
 [Instalacja NodeJS i uruchomienie aplikacji na systemie Ubuntu](./ubuntu.md)
