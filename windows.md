@@ -6,6 +6,7 @@ Należy pobrać plik instalacyjny [NodeJS](http://nodejs.org/download/ "NodeJS")
 Następnie trzeba wykonać instalację według instukcji zawartych w instalatorze.
 
 instalacja MongoDB
+
 Należy pobrać plik instalacyjny [MongoDB](http://www.mongodb.org/downloads "MongoDB") dla systemu Windows. 
 Po rozpakowaniu pobranego archiwum z MongoDB należy upewnić się że pliki znajdują się w folderze <strong>c:\mongo</strong>.
 MongoDB wymaga folderu na dane, który trzeba stworzyć. W tym celu w menu start należy wpisać: <strong>cmd</strong>, następnie uruchomić program command prompt z uprawnieniami administratora 
@@ -36,5 +37,5 @@ Po udanym pobraniu zależności uruchomienie aplikacji:
 node app.js
 ```
 
-Aplikacja działa pod adresem [MindMap](http://localhost:3000)
+Aplikacja działa pod adresem [http://localhost:3000](http://localhost:3000)
 
