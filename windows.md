@@ -11,6 +11,7 @@ Należy pobrać plik instalacyjny [MongoDB](http://www.mongodb.org/downloads "Mo
 Po rozpakowaniu pobranego archiwum z MongoDB należy upewnić się że pliki znajdują się w folderze <strong>c:\mongo</strong>.
 MongoDB wymaga folderu na dane, który trzeba stworzyć. W tym celu w menu start należy wpisać: <strong>cmd</strong>, następnie uruchomić program command prompt z uprawnieniami administratora 
 (prawym przyciskiem myszy kliknąć na program command prompt a następnie wybrać uruchom jako administrator).
+
 Tworzenie folderu na dane w oknie command prompt:
 ```sh
 cd C:\
