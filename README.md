@@ -11,19 +11,23 @@ Technologie: Aplikacja została napisana w języku JavaScript z wykorzystaniem b
 
 
 <h3>Instalacja i uruchamianie</h3>
+==
 [Instalacja NodeJS i uruchomienie aplikacji na systemie Ubuntu](./ubuntu.md)
 
 Zrzuty ekranu aplikacji działającej na urządzeniach mobilnych (przeglądarki Opera Mobile, Google Chrome, Android Stock Browser) oraz z Google Chrome i Mozilla Firefox.
 
 <h3>Przykładowe wpisy</h3> <br/>
+==
 <br/>
 ![MindMap na przeglądarkach mobilnych](screenshots/1.png "MindMap na przeglądarkach mobilnych")
 <br/>
 <h3>Edycja wybranego pola</h3> <br/>
+==
 <br/>
 ![MindMap edycja pola ](screenshots/2.png "MindMap edycja pola")
 </br>
 <h3>Dodawanie boxów</h3> <br/>
+==
 <br/>
 ![MindMap dodawanie boxów ](screenshots/add.png "MindMap dodawanie boxów")
 </br>
