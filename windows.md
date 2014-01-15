@@ -1,11 +1,11 @@
 <h1> Instalacja NodeJS i uruchomienie MindMap na Windows Vista/7 </h1>
 
-instalacja NodeJS
+Instalacja NodeJS
 
 Należy pobrać plik instalacyjny [NodeJS](http://nodejs.org/download/ "NodeJS") dla systemu Windows.
 Następnie trzeba wykonać instalację według instukcji zawartych w instalatorze.
 
-instalacja MongoDB
+Instalacja MongoDB
 
 Należy pobrać plik instalacyjny [MongoDB](http://www.mongodb.org/downloads "MongoDB") dla systemu Windows. 
 Po rozpakowaniu pobranego archiwum z MongoDB należy upewnić się że pliki znajdują się w folderze <strong>c:\mongo</strong>.
