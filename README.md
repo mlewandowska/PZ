@@ -13,10 +13,10 @@ Technologie: Aplikacja została napisana w języku JavaScript z wykorzystaniem b
 Zrzuty ekranu aplikacji działającej na urządzeniach mobilnych (przeglądarki Opera Mobile, Google Chrome, Android Stock Browser):
 
 Przykładowe wpisy <br/>
-</br>
+<br/>
 ![MindMap na przeglądarkach mobilnych](screenshots/1.png "MindMap na przeglądarkach mobilnych")
 Edycja wybranego pola <br/>
-</br>
+<br/>
 ![MindMap edycja pola ](screenshots/2.png "MindMap edycja pola")
 
 
