@@ -15,11 +15,11 @@ Zrzuty ekranu aplikacji działającej na urządzeniach mobilnych (przeglądarki 
 <h3>Instalacja i uruchamianie</h3>
 [Instalacja NodeJS i uruchomienie aplikacji na systemie Ubuntu](./ubuntu.md)
 
-Przykładowe wpisy <br/>
+<h3>Przykładowe wpisy</h3> <br/>
 <br/>
 ![MindMap na przeglądarkach mobilnych](screenshots/1.png "MindMap na przeglądarkach mobilnych")
 <br/>
-Edycja wybranego pola <br/>
+<h3>Edycja wybranego pola</h3> <br/>
 <br/>
 ![MindMap edycja pola ](screenshots/2.png "MindMap edycja pola")
 </br>
