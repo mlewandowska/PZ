@@ -13,6 +13,7 @@ Technologie: Aplikacja została napisana w języku JavaScript z wykorzystaniem b
 <h3>Instalacja i uruchamianie</h3>
 ==
 [Instalacja NodeJS i uruchomienie aplikacji na systemie Ubuntu](./ubuntu.md)
+[Instalacja NodeJS i uruchomienie aplikacji na systemie Windows Vista/7](./windows.md)
 
 Zrzuty ekranu aplikacji działającej na urządzeniach mobilnych (przeglądarki Opera Mobile, Google Chrome, Android Stock Browser) oraz z Google Chrome i Mozilla Firefox.
 

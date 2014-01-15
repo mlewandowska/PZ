@@ -18,7 +18,7 @@ Po udanej instalacji uruchomienie aplikacji:
 node app.js
 ```
 
-Aplikacja działa pod adresem http://localhost:3000
+Aplikacja działa pod adresem [MindMap](http://localhost:3000)
 
 
 <bold>*Do prawidłowego działania aplikacji wymagane jest zainstalowane mongodb</bold>
